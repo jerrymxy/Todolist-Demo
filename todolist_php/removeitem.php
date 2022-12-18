@@ -1,5 +1,7 @@
 <?php
 
+// 移除指定项
+
 include "databaseinfo.php";
 
 header("Access-Control-Allow-Origin:*");

@@ -143,7 +143,6 @@ export default {
     },
     // 清除已完成Todo
     clearDone() {
-      // this.todoArr = this.todoArr.filter((item) => !item.isDone);
       axios
         .delete(this.url + "cleardone.php")
         .then(

@@ -1,5 +1,7 @@
 <?php
 
+// 移除所有已完成项
+
 include "databaseinfo.php";
 
 header("Access-Control-Allow-Origin:*");

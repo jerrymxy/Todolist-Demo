@@ -1,5 +1,7 @@
 <?php
 
+// 入口，获取所有数据库表内容
+
 include "databaseinfo.php";
 
 // 跨域设置

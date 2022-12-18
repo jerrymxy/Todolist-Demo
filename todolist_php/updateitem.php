@@ -1,5 +1,7 @@
 <?php
 
+// 完成/取消完成某一项
+
 include "databaseinfo.php";
 
 header("Access-Control-Allow-Origin:*");

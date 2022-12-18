@@ -1,5 +1,7 @@
 <?php
 
+// 全部标记为已完成/未完成
+
 include "databaseinfo.php";
 
 header("Access-Control-Allow-Origin:*");
