@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 --
 
 -- 创建数据库
-CREATE DATABASE `todolist` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS `todolist` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 USE todolist;
 
