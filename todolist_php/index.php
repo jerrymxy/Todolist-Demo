@@ -9,7 +9,7 @@ header("Access-Control-Allow-Origin:*");
 header("Access-Control-Allow-Methods: GET");
 
 // 创建连接（面向对象）
-$conn = new mysqli($servername, $username, $password, $schemaname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // 检测连接
 if ($conn->connect_error) {
@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 $conn->set_charset("utf8");
 
 // SQL语句
-$sql = "select * from todolist";
+$sql = "select * from ".$tablename;
 // 查询
 $result = $conn->query($sql);
 

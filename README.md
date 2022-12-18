@@ -12,8 +12,8 @@ Vue CLI需要Node.js版本 >= 14
 
 ### XAMPP/LNMP等环境下部署
 
-1. 将todolist_php文件夹下内容复制进nginx/Apache设置的网站根目录下
-2. 向MySQL/MariaDB导入todolist.sql
+1. 将todolist_php文件夹复制进nginx/Apache设置的网站根目录下，并将文件夹改名为todolist（也可以修改前端App.vue下的url）
+2. 向MySQL/MariaDB导入todolist.sql（默认会创建名为todolist的数据库和表，数据库内已有同名库表的情况下请务必注意数据情况）
 3. 根据MySQL/MariaDB的设置修改databaseinfo.php中的内容
 4. 进入todolist_vue文件夹，在终端输入以下命令后运行前端
 

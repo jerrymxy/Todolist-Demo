@@ -8,9 +8,9 @@ header("Access-Control-Allow-Origin:*");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 
 // 创建连接（面向对象）
-$conn = new mysqli($servername, $username, $password, $schemaname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // 删除is_done为1的项
-$sql = "delete from ".$dbname." where is_done = 1";
+$sql = "delete from ".$tablename." where is_done = 1";
 
 $conn->query($sql);
