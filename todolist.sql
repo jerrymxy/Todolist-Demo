@@ -21,6 +21,11 @@ SET time_zone = "+00:00";
 -- 数据库： `todolist`
 --
 
+-- 创建数据库
+CREATE DATABASE `todolist` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+USE todolist;
+
 -- --------------------------------------------------------
 
 --
@@ -59,7 +64,7 @@ ALTER TABLE `todolist`
 -- 使用表AUTO_INCREMENT `todolist`
 --
 ALTER TABLE `todolist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
